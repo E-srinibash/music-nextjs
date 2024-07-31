@@ -1,7 +1,7 @@
+
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-import Image from "next/image";
 
 const musicSchoolContent = [
     {
@@ -36,10 +36,12 @@ const musicSchoolContent = [
     },
   ];
 
-export const WhyChooseUs = () => {
+function WhyChooseUs() {
   return (
     <div>
-        <StickyScroll content={musicSchoolContent}/>
+        <StickyScroll content={musicSchoolContent} />
     </div>
   )
 }
+
+export default WhyChooseUs
