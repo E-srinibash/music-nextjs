@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { HoverEffect } from './ui/card-hover-effect';
 
-export const UpcomingWebinars = () => {
+const UpcomingWebinars = () => {
 
     const featuredWebinars = [
         {
@@ -77,3 +77,5 @@ export const UpcomingWebinars = () => {
     </div>
   )
 }
+
+export default UpcomingWebinars;
